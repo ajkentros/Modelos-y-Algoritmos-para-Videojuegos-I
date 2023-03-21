@@ -69,7 +69,7 @@ const int &Enemy::getDamage() const
 void Enemy::UpdateEnemy()
 {
 	/*
-		mueve enemy en el eje y (verticlamente) a la velocidad enemySpeed en función del typo de enemy
+		mueve enemy en el eje y (verticalmente) a la velocidad enemySpeed en función del typo de enemy
 	*/
 	this->enemy.move(0.f, this->enemySpeed);
 }

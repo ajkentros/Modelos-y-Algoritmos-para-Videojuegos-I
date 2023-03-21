@@ -154,7 +154,7 @@ void Game::InitVariables()
 		- reloj1 = contabiliza el tiempo de jeugo
 	*/
 	this->puntos = 0;
-	this->dt = 0.f;
+	this->dt = 1.f;
 	this->ganaste = false;
 	this->gameOver = false;
 	this->menuActivo = true;
@@ -168,7 +168,7 @@ void Game::InitPlayer()
 //inicia Enemy
 void Game::InitEnemy()
 {
-	this->enemyTimerMax = 150.f;					//tiempo máximo entre generación de Enemy
+	this->enemyTimerMax = 500.f;					//tiempo máximo entre generación de Enemy
 	this->enemyTimer = this->enemyTimerMax;
 }
 //Constructor Game
